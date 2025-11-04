@@ -39,8 +39,8 @@ Load Reddit API credentials from the environment file.
 
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Load environment variables from .env file
 # load_dotenv('reddit_api.env') # This line was commented out
@@ -49,8 +49,8 @@ import os
 
 # Define the path to your .env file in Google Drive
 # IMPORTANT: Update this path to the actual location of your reddit_api.env file in your Google Drive
-env_file_path = '/content/reddit.env'
-#env_file_path = '/content/drive/MyDrive/Colab Notebooks/MSBA 212 - Social Media Analytics/Reddit_API_Assignment'
+#env_file_path = '/content/reddit.env'
+#env_file_path = '/content/drive/MyDrive/assignment_folder_MSBA212_Reddit/reddit.env'
 
 
 # Load environment variables from reddit_api.env file if it exists
